@@ -1,10 +1,26 @@
-# Movie-Recommendation-System
+# 🎬 Movie Recommendation System
 
-## WOrkflow
-1. Data
-2. Preprocessing
-3. Model
-4. Website
-5. Deployment
+A smart system that recommends movies based on your preferences. Built using machine learning and served through a Flask web application.
 
-## Data Source: [text](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+---
+
+## 🚀 Project Workflow
+
+### 1️⃣ Data Collection
+
+### 2️⃣ Data Preprocessing
+
+### 3️⃣ Model Development
+
+### 4️⃣ Web Development
+
+### 5️⃣ Deployment
+
+---
+
+## 📊 Dataset
+> **Source:** [TMDB Movie Metadata on Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+
+---
+
+
