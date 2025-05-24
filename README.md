@@ -6,12 +6,11 @@ A smart system that recommends movies based on your preferences. Built using mac
 
 ## 🚀 Project Workflow
 
-1️⃣ Data Collection
-2️⃣ Data Preprocessing
-3️⃣ Model Development
-4️⃣ Web Development
-5️⃣ Deployment
-
+1. Data Collection
+2. Preprocessing
+3. MOdel Developnment
+4. Web Developnment
+5. Deployment
 ---
 
 ## 📊 Dataset
