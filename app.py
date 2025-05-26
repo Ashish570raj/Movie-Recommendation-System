@@ -19,6 +19,7 @@ if not os.path.exists('similarity.pkl'):
 with open('similarity.pkl', 'rb') as f:
     similarity = pickle.load(f)
 
+
 def recommend(movie):
     movie_index= movies[movies['title']== movie].index[0]
     distances=similarity[movie_index]
