@@ -4,6 +4,14 @@ import pandas as pd
 import pickle
 import warnings
 
+import gdown
+import os
+
+if not os.path.exists('similarity.pkl'):
+    url = 'https://drive.google.com/file/d/1-gA4Ufds45H6LJCsSaOaq9Al15lbMthv/view?usp=drive_link'
+    gdown.download(url, 'similarity.pkl', quiet=False)
+
+similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 def recommend(movie):
     movie_index= movies[movies['title']== movie].index[0]

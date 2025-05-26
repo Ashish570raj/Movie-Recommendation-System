@@ -3,3 +3,4 @@ numpy
 Scikit-learn
 nltk
 streamlit
+gdown
