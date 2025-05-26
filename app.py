@@ -7,11 +7,17 @@ import warnings
 import gdown
 import os
 
+# Corrected Google Drive URL using file ID
+file_id = '1-gA4Ufds45H6LJCsSaOaq9Al15lbMthv'
+url = f'https://drive.google.com/uc?id={file_id}'
+
+# Download only if not present
 if not os.path.exists('similarity.pkl'):
-    url = 'https://drive.google.com/file/d/1-gA4Ufds45H6LJCsSaOaq9Al15lbMthv/view?usp=drive_link'
     gdown.download(url, 'similarity.pkl', quiet=False)
 
-similarity = pickle.load(open('similarity.pkl', 'rb'))
+# Load data
+with open('similarity.pkl', 'rb') as f:
+    similarity = pickle.load(f)
 
 def recommend(movie):
     movie_index= movies[movies['title']== movie].index[0]
